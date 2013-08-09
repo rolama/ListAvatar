@@ -1,0 +1,52 @@
+.ConteList{
+	float:left;
+	height:100%;
+	min-height:240px;
+	overflow-y:auto;
+	padding-right:5px;
+	width:100%;
+}
+.ConteList li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-user-select: none;
+    background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%) repeat scroll 0 0 transparent;
+    border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.4);
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color: #1DA8E1;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    line-height: 1em;
+    margin: 5px 0 5px 5px;
+    outline: medium none;
+    overflow: visible;
+    padding: 5px;
+    position: relative;
+    width: 94%;
+    word-wrap: break-word;
+}
+.ConteList li img{
+	width:32px; margin:5px; float:left;
+}
+.ConteList li h5{
+	font-size:14px;
+	margin-top:2px;
+	text-align:left;
+}
+.ConteList li p{
+	color:#000000; line-height:15px; word-wrap: break-word;
+	width:100%;	font-size:12px; text-align: left;
+}
+.ConteList li:hover {
+    background-color: #8AC5FD;
+    background-image: -moz-linear-gradient(center top , #86C1FD 0%, #99D5FF 49%, #82C2FD 50%, #6CAAE5 100%);
+    color: #FFFFFF;
+}
